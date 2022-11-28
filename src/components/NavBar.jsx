@@ -10,9 +10,9 @@ const Navbar = ({setShow, size}) => {
   let posts = [
     {
       id: 1,
-      link:  <a href='#aboutus'  className="myShop"  >
+      link:  <Link to='/'  className="myShop"  >
       О нас
-    </a>
+    </Link>
      
     },
     {
@@ -24,27 +24,27 @@ const Navbar = ({setShow, size}) => {
     },
     {
       id: 3,
-      link:  <a href='a'  className="myShop"  >
+      link:  <Link to='/'  className="myShop"  >
       Бронь
-    </a>
+    </Link>
     },
     {
       id: 4,
-      link:  <a href='a'  className="myShop"  >
+      link:  <Link to='/'  className="myShop"  >
       Галерея
-    </a>
+    </Link>
     },
     {
       id: 5,
-      link:  <a href='a'  className="myShop"  >
+      link:  <Link to='/'  className="myShop"  >
       Контакты
-    </a>
+    </Link>
     },
     {
       id: 6,
-      link:  <a href='a'  className="myShop"  >
+      link:  <Link to='/'  className="myShop"  >
       Вакансии
-    </a>
+    </Link>
     },
   ]
   return (
