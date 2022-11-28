@@ -67,6 +67,13 @@ letter-spacing: 0.07em;
     }
 }
 @media (max-width: 480px) {
+    .about-wrapper {
+        left: -4.5vw !important;
+        padding: 2vw 8.2vw;
+        top: 0;
+        width: 87% !important;
+        position: relative !important;
+    }
     .css-1s50f5r {
         box-sizing: border-box;
         margin: 0px;
@@ -74,7 +81,7 @@ letter-spacing: 0.07em;
         flex-basis: 50%;
         -webkit-box-flex: 0;
         flex-grow: 0;
-        max-width: 82%;
+        max-width: 82% !important;
     }
     .css-7vy65v {
         box-sizing: border-box;
@@ -94,7 +101,7 @@ letter-spacing: 0.07em;
         justify-content: center !important;
         flex-flow: row wrap;
         margin-top: 0px !important;
-        width: 100vw !important;
+        width: 94vw !important;
         margin-left: 0 !important;
     }
   .text , .contact-title {
