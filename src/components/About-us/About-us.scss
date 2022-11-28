@@ -67,6 +67,36 @@ letter-spacing: 0.07em;
     }
 }
 @media (max-width: 480px) {
+    .css-1s50f5r {
+        box-sizing: border-box;
+        margin: 0px;
+        flex-direction: row;
+        flex-basis: 50%;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 82%;
+    }
+    .css-7vy65v {
+        box-sizing: border-box;
+        margin: 0px;
+        flex-direction: row;
+        flex-basis: 85.3333% !important;
+        -webkit-box-flex: 0;
+        flex-grow: 0;
+        max-width: 99.3333% !important;
+    }
+    .css-isbt42 > .MuiGrid-item {
+         padding-left: 0px !important; 
+    }
+    .css-isbt42 {
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center !important;
+        flex-flow: row wrap;
+        margin-top: 0px !important;
+        width: 100vw !important;
+        margin-left: 0 !important;
+    }
   .text , .contact-title {
     font-size: 5vw !important;
   }
