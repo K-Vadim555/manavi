@@ -1,0 +1,50 @@
+
+.categories{
+
+
+.categoriesBox {
+    display: flex;
+    align-items: center;
+    border-right: 2px solid #FFC632;
+
+    margin-right: 2vw;
+    padding: .5vw; 
+       padding-right: 1vw;
+    img {
+        width: 2vw;
+        height: 2vw;
+        margin: 1vw;
+        color: aqua;
+        
+
+    }
+}
+.categoriesBox:hover {
+    background-color: #85241F;
+    transition: all 0.3s ease;
+    border-radius: 2vw;
+}
+}
+@media (max-width: 1024px) { 
+      .categoriesBox:hover {
+        p {
+            color: wheat !important;
+        }
+       
+    } .categoriesBox {
+        img {
+            width: 5vw !important;
+            height: 5vw !important;
+        }
+        p {
+            color: black !important;
+           font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+   
+  
+    
+}

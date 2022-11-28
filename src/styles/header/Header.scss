@@ -1,0 +1,263 @@
+
+ $vw:1/1440px*100vw;
+ .logo {
+     width: 5vw;
+     
+ }
+ .number {
+     display: flex;
+     
+     margin: 0 auto;
+     font-family: Roboto;
+     font-size: 1.3vw !important;
+     
+    
+    
+     
+ }
+ .css-1oqqzyl-MuiContainer-root {
+      max-width: none !important; 
+      padding: 0 6vw !important;
+ }
+ .menu-links {
+     display: flex;
+     align-items: center;
+     .link {
+         font-family: Roboto;
+         margin: 0 1vw;
+         font-size: 1.3vw !important;
+         color: rgb(255, 255, 255);
+         text-decoration: none;
+     }
+ }
+ .btn-box {
+     position: absolute;
+     left: 7.5vw;
+ top: 34.8vw;
+ 
+     .btn {
+         display: flex;
+ flex-direction: row;
+ justify-content: center;
+ align-items: center;
+
+ gap: 10px;
+ 
+ position: absolute;
+ width: 27vw;
+ height: 5.3vw;
+ 
+ background: #85241F;
+ border-radius: 55px;
+ 
+ 
+ font-family: 'Montserrat';
+ font-style: normal;
+ font-weight: 700;
+ font-size: 1.4vw;
+ line-height: 39px*$vw;
+ /* identical to box height */
+ 
+ text-align: center;
+ 
+ color: #FFFFFF;
+ 
+ 
+ /* Inside auto layout */
+ 
+ flex: none;
+ order: 0;
+ flex-grow: 0;
+     }
+ }
+ .main-text {
+     position: absolute;
+ 
+ 
+ left: 7vw;
+ top: 11vw;
+ 
+ 
+ font-style: normal;
+ font-weight: 800;
+ font-size: 6vw !important;
+ line-height: 78px;
+ /* identical to box height */
+ font-weight: 900;
+ text-align: center;
+ 
+ color: #FFFFFF;
+ }
+ .css-ahj2mt-MuiTypography-root { 
+     font-family: 'Montserrat' !important;
+ }
+ .css-11b3ww9-MuiPaper-root-MuiAppBar-root {
+     right: auto !important;
+     position: fixed !important;
+     width: 100% !important;
+     justify-content: start;
+     margin: 0 auto !important;
+     padding:0 5vw !important;
+     transition: .5s e;
+ }
+ .css-1q39md6-MuiButtonBase-root-MuiButton-root {
+     font-size: 1.3vw !important;
+ }
+ .css-130f8nx {
+     margin-right: 1vw;
+ }
+ .css-1kkpk3h-MuiButtonBase-root-MuiButton-root {
+     font-family: 'Montserrat' !important;
+     font-style: normal !important;
+     font-weight: 700 !important;
+     font-size: 1.1vw !important;
+  
+     
+     color: #FFFFFF;
+     
+     
+     /* Inside auto layout */
+     
+     flex: none;
+     order: 0;
+     flex-grow: 0;
+ }
+ .box {
+     display: flex;
+ }
+ .b1 {
+     margin-left: 1vw !important;
+ }
+ .hed-links {
+     text-decoration: none;
+     
+     font-family: 'Montserrat';
+     color: black;
+     margin: 0 auto;
+     transition: 2s ease;
+ }
+ .hed-links2 {
+     text-decoration: none;
+     font-size: 1.1vw;
+     font-family: 'Montserrat';
+     color: rgb(255, 255, 255);
+     margin: 0 auto !important;
+     transition: 2s ease;
+ }
+ .hed-links3 {
+     text-decoration: none;
+     font-size: 1.4vw;
+     font-family: 'Montserrat';
+     color: rgb(255, 255, 255);
+     margin: 0 auto !important;
+     transition: 2s ease;
+     margin: 0 1vw !important;
+     font-weight: 700;
+ }
+ .hin-of {
+    display: block;
+ }
+ .around-hinkali {
+    position: relative;
+    margin: 1vw auto;
+    display: flex;
+    justify-content: center;
+ }
+ .hinkali {
+    position: absolute;
+    top: 2vw;
+    left: 3vw;
+    width: 15vw;
+}
+.textAnim {
+  
+    width: 20vw;
+    top: 34.5vw;
+    left: 75vw;
+   
+    animation-name: spin;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    @keyframes spin {
+        from {
+            transform:rotate(0deg);
+        }
+        to {
+            transform:rotate(360deg);
+        }
+    }
+    }
+
+ 
+ @media (min-width: 600px) {
+     .css-1r7kz78-MuiModal-root-MuiDrawer-root {
+     display: flex !important;
+ }
+ }
+ @media (max-width: 600px) {
+     .css-1r7kz78-MuiModal-root-MuiDrawer-root {
+     display: flex !important;}
+     .box1 {
+     display: flex  !important;
+ 
+    }
+    .box2 {
+     display:none !important;
+ 
+    }
+ 
+ }
+ 
+
+ @media (max-width: 768px) {
+    .b1 {
+     margin-right: 4vw !important;
+    }
+     
+        .box2 {
+         display: flex !important;
+     
+        }
+        .box1 {
+            display: none !important;
+        
+           }
+        .logo {
+         width: 7vw !important;
+        }
+ }
+ 
+
+ 
+ @media (max-width: 1024px) {
+     .logo {
+         width: 6vw;
+     }
+     .b1 {
+         margin-left: auto !important;
+     }
+ .css-v7m8h6 {
+     display: none !important;
+ }
+ .box ,.css-13o7eu2 {
+     display: none !important;
+ }
+ 
+ .menu-icon {
+     display: flex !important;
+     order: 2;
+ }
+ }
+ @media (max-width: 480px) {
+     .logo {
+         width: 9vw !important;
+        
+     }
+     .css-11lhtht-MuiButtonBase-root-MuiIconButton-root {
+          margin-right: 5vw !important;
+     }
+ }
+ 
+ 
+ 

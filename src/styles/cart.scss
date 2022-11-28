@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .Cart {
+    padding-top: 7vw;
+  }
+  
+  .cart_box img {
+    width: 15vw;
+    
+  }
+  .cart_img {
+    display: flex;
+    width: auto;
+    align-items: center;
+  }
+  .count {
+    width: 15vw;
+    display: flex;
+    align-items: center;
+    span {
+      font-family: 'Montserrat';
+font-style: normal;
+font-weight: 800;
+font-size: 1.5vw;
+width: auto;
+/* identical to box height */
+width: 15vw;
+text-align: center;
+
+color: #FFC632;
+
+    }
+    .count-button1 ,  .count-button2 {
+      color: #FFC632;
+      background-color: transparent;
+      border: none;
+      margin: 0 1vw;
+      font-size: 2vw;
+      cursor: pointer;
+    }
+    p {
+      width: 4vw;
+      height: 2vw;
+      background: #FFFFFF;
+border-radius: 13px;
+color: black;
+text-align: center;
+    }
+  }
+  
+  .cart_img p {
+    font-weight: bold;
+    margin-left: 1vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.5vw;
+    width: auto;
+  }
+  
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1vw 0;
+    padding: 0 2vw;
+    padding-left: 0;
+  
+  }
+  .cart-delete-icon {
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50% !important;
+    margin: 0 1vw;
+    background-color: #4e4e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+    cursor: pointer;
+    svg {
+      width: 2vw !important;
+      height: 1vw;
+    }
+  }
+
+
+  
+  .total {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  
+ .article {
+  width: 60vw;
+  height: fit-content;
+  background: #303030;
+border-radius: 37px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+ }.no {
+  display: block !important;
+  width: 100%;
+  margin: 0 2vw;
+}
+.tovno {
+  font-size: 2.5vw ;
+  padding: 1.5vw 0;
+}
+.summa {
+  width: 20vw;
+  height: fit-content;
+ 
+background: #303030;
+border-radius: 2vw;
+padding: 1vw;
+margin: 0 auto;
+a {
+  background: #85241F;
+  width: fit-content;
+  height: 4vw;
+  font-size: 1.5vw;
+  color: white;
+  text-decoration: none;
+  padding: 0vw 3vw;
+  border-radius: 1vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vw auto;
+}
+.itogo{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2vw;
+margin: 0 auto;
+width: fit-content;
+/* identical to box height */
+
+letter-spacing: 0.07em;
+
+color: #FFFFFF;
+}
+.itogo1{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2vw;
+margin: 0 auto;
+width: fit-content;
+text-align: center;
+/* identical to box height */
+
+letter-spacing: 0.07em;
+color: #FFC632;
+}
+div {
+  display: flex;
+  justify-content: space-between;
+  margin: 1vw;
+  align-items: center;
+ 
+} span {
+    
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.3vw;
+line-height: 2vw;
+text-align: center;
+
+color: #FFC632;
+  }
+}
+.menu-basket {
+  display: flex;
+  max-width: 85%;
+  margin: 0 auto;
+  padding-top: 1vw;
+  justify-content: space-between;
+}
+.backButton {
+  margin-left: 8vw ;
+  margin-top: 1vw;
+  font-family: "Montserrat";
+  text-decoration: none;
+  font-style: normal;
+  font-weight:initial;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2vw;
+  img{
+  width: 5vw;
+}
+} 
+@media (max-width: 768px) {
+  .Cart {
+    padding-top:10vw !important ;
+  }
+  .menu-basket {
+    display: block;
+  }
+  .hin-of {
+    display: flex !important;
+  }
+  .article {
+    width: 64vw;
+    margin: 2vw auto;
+  }
+  .hinkali {
+    left: 2vw !important;
+  }
+  .count {
+    p {
+      width: 5vw;
+      
+    }
+  }
+}
+@media (max-width: 480px) {
+  .tovno {
+    font-size: 5vw;
+  }
+  .menu-basket {
+    min-height: 170vw;
+  }
+  .cart_box {
+    display: block !important;
+  }
+  .cart_box img {
+    margin: 0 4vw;
+    
+  }  
+  .cart_img p {
+   
+      font-weight: bold;
+      
+      font-size: 2.5vw;
+    }
+  .cart_img {
+    display: flex;
+    width: auto;
+    align-items: center;
+  
+  }
+  .count {
+    width: 54vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+     
+    span {
+      font-size: 2.5vw;
+    }
+    .count-button1 ,  .count-button2 {
+      color: #FFC632;
+      background-color: transparent;
+      border: none;
+      margin: 0 1vw;
+      font-size: 3vw;
+    }
+    p {
+      width: 4vw;
+      height: 3vw;
+      background: #FFFFFF;
+border-radius: 13px;
+color: black;
+text-align: center;
+font-size: 3vw;
+    }
+  }
+  
+  
+  
+  .cart_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:1vw 0;
+    padding: 0 2vw;
+  
+  }
+  .cart-delete-icon {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 50% !important;
+    margin: 0 1vw;
+    background-color: #4e4e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none !important;
+    cursor: pointer;
+    svg {
+      width: 4vw !important;
+      height: 3vw;
+    }
+  }
+
+  .Cart {
+    padding-top:15vw !important ;
+  }
+  .menu-basket {
+    display: block;
+  }
+  .css-hu73u9-MuiTypography-root {
+    font-size: 4.5vw;
+  }
+  .hin-of {
+    display: block !important;
+    
+  }
+  .article {
+    width: 100%;
+    margin: 2vw auto;
+  }
+  .around-hinkali {
+    width: fit-content;
+    .hinkali {
+      left: 3vw !important;
+      top: 3vw;
+      width: 60vw;
+    }
+  }
+  .summa {
+    width: 80vw;
+    .itogo {
+      font-size: 4vw;
+      margin: 2vw auto;
+    }
+    p , span  {
+      font-size: 4.5vw;
+    }
+    a {
+      font-size: 4.5vw;
+      height: 11vw;
+      width: 25vw;
+    }
+    .itogo1 {
+      margin: 3vw auto;
+      font-size: 4.5vw;
+    }
+  }
+  .textAnim {
+    width: 70vw !important;
+    height: fit-content;
+  }
+  
+}

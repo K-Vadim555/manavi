@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.500);
+    z-index: 2;
+  }
+  
+  .navBox {
+    
+    width: 85%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 4.5vw;
+    padding: .5vw 0;
+    z-index: 3;
+  }
+  .myShop{
+   display: flex;
+   align-items: center;
+  } 
+  .logo {
+    display: flex;
+    align-items: center;
+    img {
+    
+    width: 5vw;
+    cursor: pointer;
+   
+  }}
+  .cart {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+   
+    span {
+      img {
+        width: 4vw;
+      }
+    }
+  }
+  .cart span:nth-child(2) {
+    font-size: 2vw;
+    width: fit-content;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  .cart span:nth-child(1) {
+    padding: 0vw 0.5vw;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: white; 
+    border-radius: 1vw;
+    position: relative;
+    top: 0.2vw;
+    left: 50%;
+  }
+  .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin: 0 auto;
+    p {
+      color: white;
+      display: flex;
+      font-family: Montserrat;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+    }
+  }
+  
+  
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: white !important;
+    min-width: fit-content !important;
+  }
+  .css-1u2w381-MuiModal-root-MuiDrawer-root {
+    display: none;}
+  .drawer-header-title {
+    margin: 0;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 4vw !important;
+    line-height: 1.5;
+    letter-spacing: 0.00938em;
+    color: black;
+    text-align: center;
+  }
+  .drawer-header-links {
+    display: flex;
+    list-style: none;
+    
+    .myShop {
+      margin: 0 .5vw;
+      text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat";
+    color: rgb(0, 0, 0);
+    
+    transition: 2s ease;
+    margin: 0 1vw !important;
+    font-weight: 700;
+    }
+  }
+  .links {
+    display: flex;
+    list-style: none;
+    
+    .myShop {
+      margin: 0 .5vw;
+      text-decoration: none;
+    font-size: 1.3vw;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    
+    transition: 2s ease;
+    margin: 0 1vw !important;
+    font-weight: 700;
+    }
+  }
+  .css-1ei1svh-MuiButtonBase-root-MuiIconButton-root {
+    color: white !important;
+    width: 3vw !important;
+   
+  }
+  .css-i4bv87-MuiSvgIcon-root {
+   
+    user-select: none;
+    width: 5vw !important;}
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+     display: none !important;
+  }
+  .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background-color: #d6d6d6 !important;
+  }
+  @media (max-width:1024px) {
+   nav .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    display: none !important;
+ }
+  }
+  
+  @media (max-width:768px) {
+   nav .css-1u2w381-MuiModal-root-MuiDrawer-root {
+      display: flex !important;
+  }
+    .logo img {
+      width: 12vw;
+    }
+    
+    .cart {
+      
+      margin-left: auto;
+      img {
+        width: 10vw !important;
+      }
+      span:nth-child(1) {
+        padding: 0vw 0.5vw;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: 700;
+        color: white;
+        border-radius: 1vw;
+        position: relative;
+        top: 0.2vw;
+        left: 6.5vw;
+        font-size: 2.8vw;
+    
+    }
+    }
+   nav .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+      display: flex !important;
+      justify-content: end !important;
+      line-height: 3vw !important;
+      height: 10vw;
+     
+   }
+    .css-1u2w381-MuiModal-root-MuiDrawer-root {
+    display: flex;}
+   .links {
+    display: none;
+   }
+  }
+  @media (max-width:768px) {
+    nav {
+      display: flex;
+      align-items: center;
+      height: 15vw;
+    }
+  }

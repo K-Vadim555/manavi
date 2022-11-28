@@ -1,0 +1,328 @@
+$vw:1/1440px*100vw;
+
+
+@media (hover: none) {
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+        border-color: rgb(0, 0, 0) !important;
+    }
+    }
+    
+    .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+        border-color: rgb(0, 0, 0) !important;
+    }
+    label+.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+        margin-top: 2vw !important;
+    }
+    input#tel {
+        display: -webkit-box;
+    }
+.form {
+     flex-wrap: wrap;
+      background-color: #fff !important;
+      margin-left: 8vw !important;
+      max-width: -webkit-fill-available;
+      width: auto;
+height: auto;
+padding: 3vw;
+margin-bottom: 2vw;
+
+
+border-radius: 15px;
+label {
+    font-size: 1.3vw !important;
+}
+
+}
+
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+    border-bottom: 2px solid #000000 !important;
+    
+   
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+    color: #000000 !important;
+    font-size: 1vw !important;
+}
+.css-4muqlg-MuiGrid-root>.MuiGrid-item {
+    padding-top: 3vw !important; 
+    width: 10vw !important;
+}
+.css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-12wnr2w-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+     color: #000000 !important; 
+     
+     
+}
+
+.css-j204z7-MuiFormControlLabel-root  {
+    margin: 0 !important;
+   
+}
+.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+    font-size: 1.3vw;
+    margin-left: 1vw;
+  
+}
+.css-dmmspl-MuiFormGroup-root {
+      width: 100%;
+}
+.css-gp4nc6-MuiButtonBase-root-MuiCheckbox-root.Mui-checked, .css-gp4nc6-MuiButtonBase-root-MuiCheckbox-root.MuiCheckbox-indeterminate {
+    color: #000000;
+    
+}
+.input1 {
+   
+    border-color: fffffff !important;
+    width: 15vw;
+    margin: 0 auto;
+    height: 0vw;
+}
+.input2 {
+    border-color: fffffff !important;
+    width: 6.3vw;
+    margin: 0 auto;
+    margin-top: 2vw !important;
+    height: 0vw;
+
+}
+.css-1ptx2yq-MuiInputBase-root-MuiInput-root.Mui-error:after {
+    border-bottom-color: #d32f2f !important;
+    -webkit-transform: scaleX(1);
+    -moz-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.css-gp4nc6-MuiButtonBase-root-MuiCheckbox-root:hover {
+    background-color: rgba(25, 118, 210, 0.04);
+}
+
+
+.css-gp4nc6-MuiButtonBase-root-MuiCheckbox-root {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: middle;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    color: inherit;
+    padding:2vw 0 !important ;
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.6);
+}
+.btn {
+    display: flex;
+    margin: 0 auto !important;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0 !important;
+gap: 10px;
+font-size: 1.3vw !important;
+
+width: 25vw;
+height: 5vw;
+
+
+background: #85241F !important;
+border-radius: 20px !important;
+}
+.Line {
+    width: 17vw;
+    height: .5vw;
+    display: flex;
+    justify-content: start;
+    margin-left: 8vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+.Wrapper {
+    display: flex;
+    justify-content: space-between;
+    .Food {
+        width: 40vw;
+        margin-top: 8vw !important;
+    }
+}
+
+.from_wrapper {
+    margin-top: 8vh;
+    margin-left: 8vw;
+    width: 45vw;
+    height: 50vh;
+    background: #FFFFFF !important;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    form {
+        width: 40vw;
+        height: 30vh;
+        margin-bottom: 5vw;
+    }
+    .box {
+        position: absolute;
+        margin-top: 5vh;
+        .span {
+            font-size: 2vw;
+        }
+    }
+    .btn {
+        display: flex;
+        margin-top: 15vh !important;
+        margin: 7vw ;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0 !important;
+        gap: 10px;
+        font-size: 1.3vw !important;
+        width: 25vw;
+        height: 4vw;
+        background: #85241F !important;
+        border-radius: 20px !important;
+    }
+}
+
+.columns_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .column {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 20vh;
+        input, select {
+            
+            border: none;
+            border-bottom: 2px solid #424141;
+        }
+    }
+    .left {
+        .Name {
+            width: 15vw;
+            height: 5vh;
+            border: none;
+         
+        }
+        select {
+            width: 100%;
+            height: 5vh;
+        }
+    }
+    .right {
+        .Number {
+            width: 20vw;
+            height: 5vh;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 20vw;
+            height: 5vh;
+            input {
+                width: 9vw;
+                height: 5vh;
+            }
+        }
+    }
+}
+.MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+    width: -webkit-fill-available;
+}
+@media (max-width:768px) {
+    input {
+        display: -webkit-box;
+    }
+    input::placeholder {
+        font-size: 1.7vw;
+    }
+    .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label{
+    font-size: 1.6vw;
+ }
+}
+@media (max-width:480px) {
+    .columns_wrapper .right .Number {
+        width: 100%;
+    }
+    .MuiInput-root.MuiInput-underline.MuiInputBase-root.MuiInputBase-colorPrimary.MuiInputBase-formControl.css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+        width: -webkit-fill-available;
+    }
+    .btn {
+        width: 50vw !important;
+        height: 8vw;
+        font-size: 3vw !important;
+    }
+    .form {
+        padding:3vw 7vw;
+        
+    }
+    .css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+        font-size: 3vw !important;
+    
+        margin-left: 3vw;
+    }
+    input {
+        margin: 5vw 0;
+       
+    }
+    input::placeholder {
+        font-size: 3vw;
+    }
+    .columns_wrapper .column {
+        display: flex;
+        justify-content: space-around; }
+
+    .columns_wrapper .right .row {
+        width: auto;
+    }
+    .columns_wrapper .right .row input {
+        width: 100%;
+        font-size: 3vw;
+    }
+    .columns_wrapper {
+        display: block;
+    }
+    .left .Name , input#tel {
+        width: 100% !important;
+    }
+   .bludo {
+    display: none;
+   }
+   .css-uqwprf-MuiGrid-root {
+    flex-basis: 85% !important;
+    max-width: 85% !important;
+    
+   }
+   .form {
+    margin-left: 0 !important;
+   }
+   .css-mhc70k-MuiGrid-root {
+     justify-content: center;
+}
+}

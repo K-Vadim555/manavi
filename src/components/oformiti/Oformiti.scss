@@ -1,0 +1,396 @@
+.oformiti {
+    
+    .contact-title  {
+        margin-left: 0 !important;
+        justify-content: center;
+        
+        width: fit-content;
+        margin: 0 auto !important;
+        margin-top: 10vw !important;
+    }
+    .a2, .r {
+         width: fit-content;
+        justify-content: center;
+        margin: 0 auto;
+    }
+      .ros {
+        position: absolute;
+        left: 0;
+        top: 10vw;
+        width: 15vw;
+      }
+        .shag1 {
+            width: 55vw;
+            margin: 3vw auto;
+            display: flex;
+        }
+        .form {
+            flex-wrap: wrap;
+            background: #303030 !important;
+            border-radius: 37px;
+            /* margin-left: 8vw !important; */
+            max-width: -webkit-fill-available;
+            width: 78vw;
+            height: auto;
+            padding: 3vw;
+            margin-bottom: 2vw;
+            border-radius: 15px;
+            margin-left: 0 !important;
+            margin: auto !important;
+        }
+        .css-dmmspl-MuiFormGroup-root {
+            display: -webkit-box;
+        }
+        .css-185vfz8-MuiFormControlLabel-root .MuiFormControlLabel-label ,.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+            font-size: 1.8vw;
+            
+            font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+
+line-height: 24px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+        }
+        .css-bfla0e-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+            color: #FFC632;
+        }
+        .columns_wrapper {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 3vw;
+            .column {
+                
+                height: 25vh;
+            }
+            .input-title {
+                font-size: 1.5vw;
+                width: fit-content;
+
+                font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+            }
+            .left , .right {
+                display: flex;
+                max-width: 45%;
+            }
+            .left-column-first  {
+                display: flex;
+                justify-content: space-between;
+                .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+                    width: 45%;
+                }
+                input {
+                    
+                    color: wheat;
+                    ::placeholder {
+                         color: wheat !important;
+                         font-size: 1.5vw !important;
+                    }
+                }
+
+            }
+           .css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+                                color: wheat !important;
+                                font-size: 1.3vw !important;
+            }
+            .left-column-second  {
+                display: flex;
+                justify-content: space-between;
+                .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+                    width: 30%;
+                }
+            }
+
+            
+        }
+        .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+            border-bottom: 2px solid #ffffff !important;
+        }
+        .css-1ptx2yq-MuiInputBase-root-MuiInput-root:hover {
+            border-bottom: 2px solid #ffffff !important;
+        }
+}
+.ifr {
+    display: flex;
+    justify-content: space-between;
+    width: 83vw;
+    margin: 3vw auto;
+    iframe {
+        border-radius: 37px;
+    }
+}
+.bt {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 1.3vw;
+line-height: 29px;
+text-align: center;
+
+color: #FFFFFF !important;
+text-decoration: none;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.y {
+    
+    .p {
+        
+        font-size: 4vw;
+        padding: 3vw;
+        background-color: #303030;
+        width: 80%;
+        margin: 5vw auto;
+        font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900;
+
+line-height: 78px;
+/* identical to box height */
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+    }
+        
+    
+    .t {
+     
+    }
+    .contact-title  {
+        margin-left: 0 !important;
+        justify-content: center;
+        
+        width: fit-content;
+        margin: 0 auto !important;
+        margin-top: 10vw !important;
+    }
+    .a2, .r {
+         width: fit-content;
+        justify-content: center;
+        margin: 0 auto;
+    }
+      .ros {
+        position: absolute;
+        left: 0;
+        top: 10vw;
+        width: 15vw;
+      }
+        .shag1 {
+            
+            display: flex;
+            width: 55vw;
+            margin: 5vw auto;
+
+        }
+} 
+.boxSumma { 
+    position: absolute; 
+    right: 6.8vw; 
+    top: 22vw; 
+    display: flex; 
+    justify-content: space-between; 
+    width: 16vw; 
+    align-items: center; 
+    .dishes { 
+        font-weight: 600; 
+        color: white; 
+        font-size: 1.4vw; 
+    } 
+    .count { 
+        font-size: 1.4vw; 
+        font-style: italic; 
+    } 
+    .summa { 
+        font-size: 1.4vw; 
+        color: #FFC632; 
+        font-weight: 600; 
+    } 
+} 
+.summa2 { 
+    font-size: 2vw; 
+    font-weight: 600; 
+    color: rgb(243 189 50); 
+    position: absolute; 
+    right: 11vw; 
+    top: 24vw; 
+}
+@media (max-width:480px) {
+    .oformiti .css-dmmspl-MuiFormGroup-root {
+        display: none;
+    }
+    .hinof {
+        margin-bottom: 100%;
+    }
+    .oformiti {
+         
+        .contact-title  {
+            margin-left: 0 !important;
+            justify-content: center;
+            
+            width: fit-content;
+            margin: 0 auto !important;
+            margin-top: 10vw !important;
+        }
+        .a2, .r {
+             width: fit-content;
+            justify-content: center;
+            margin: 0 auto;
+        }
+          .ros {
+            position: absolute;
+            left: 0;
+            top: 10vw;
+            width: 15vw;
+          }
+            .shag1 {
+                width: 55vw;
+                margin: 3vw auto;
+                display: flex;
+            }
+            .form {
+                flex-wrap: wrap;
+                background: #303030 !important;
+                border-radius: 37px;
+                /* margin-left: 8vw !important; */
+                max-width: -webkit-fill-available;
+                width: 72vw;
+                height: auto;
+                padding: 6vw;
+                margin-bottom: 2vw;
+                border-radius: 15px;
+                margin-left: 0 !important;
+                margin: auto !important;
+            }
+    
+            .css-185vfz8-MuiFormControlLabel-root .MuiFormControlLabel-label ,.css-j204z7-MuiFormControlLabel-root .MuiFormControlLabel-label {
+                font-size: 3vw;
+                
+                font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+            }
+            .css-bfla0e-MuiButtonBase-root-MuiRadio-root.Mui-checked {
+                color: #FFC632;
+            }
+            .columns_wrapper {
+                display: block;
+                justify-content: space-between;
+                margin-bottom: 3vw;
+                .column {
+                    
+                    height: auto !important;
+                }
+                .input-title {
+                    font-size: 4vw;
+                    width: 100%;
+    
+                    font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        
+       
+        letter-spacing: 0.05em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #FFFFFF;
+                }
+                .left , .right {
+                    display: flex;
+                    max-width: 100%;
+                }
+                .left-column-first  {
+                    display: block;
+                    justify-content: space-between;
+                    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+                        width: 100%;
+                        margin: 5vw auto;
+                    }
+                    input {
+                        
+                        color: wheat;
+                        font-size: 3vw !important;
+                        ::placeholder {
+                             color: wheat !important;
+                             font-size: 3vw !important;
+                        }
+                    }
+    
+                }
+               .css-1ptx2yq-MuiInputBase-root-MuiInput-root {
+                                    color: wheat !important;
+                                    font-size: 1.3vw !important;
+                }
+                .left-column-second  {
+                    display: block;
+                    justify-content: space-between;
+                    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+                        width: 100%;
+                        margin: 5vw auto;
+                    }
+                }
+    
+                
+            }
+            .css-1ptx2yq-MuiInputBase-root-MuiInput-root:after {
+                border-bottom: 2px solid #ffffff !important;
+            }
+            .css-1ptx2yq-MuiInputBase-root-MuiInput-root:hover {
+                border-bottom: 2px solid #ffffff !important;
+            }
+    }
+    .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+        font-size: 3vw !important;
+    }
+    input {
+        margin: 1vw auto;
+    }
+    .bt {
+        display: flex;
+        margin: 0 auto;
+        font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3vw;
+   
+    text-align: center;
+    
+    color: #FFFFFF !important;
+    text-decoration: none;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;}
+    .btn {
+      width: 100% !important;
+      margin: 1vw auto !important;
+        height: 11vw;
+  }
+  .y .p {
+  
+    line-height: 18vw;
+    text-align: center;
+}
+}

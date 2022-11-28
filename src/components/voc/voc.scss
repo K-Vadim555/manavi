@@ -1,0 +1,240 @@
+.voc {
+    .slick-next {
+        left: 16vw !important;
+      }
+      .slick-prev {
+        left: 8vw !important;
+      }
+    position: relative;
+    .contact-title {
+        margin-top: 5vw;
+    }
+    .a2 {
+        width: 10vw;
+    }
+    .hinc {
+        position: absolute;
+        right: 10vw;
+        top: -10vw;
+        width: 22vw;
+    }
+
+.voc-slider {
+    img {
+        width: 27vw;
+    }
+    width: 83vw !important;
+    height: 30vw;
+    margin: 0 auto;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.d {
+    display: flex;
+    margin: 2vw  0!important;
+}
+.i {
+   display: none;
+}
+ul {
+    padding: 0;
+    
+    li {
+        font-size: 1.5vw;
+        margin: 0;
+        line-height: 3;
+        width: auto;
+    }
+     
+}
+.list-p {
+    font-family: 'DejaVu Sans';
+font-style: italic;
+font-weight: 700;
+font-size: 1.2vw;
+line-height: 0.5;
+letter-spacing: 0.05em;
+display: flex;
+margin-right: auto;
+color: #FFFFFF;
+}
+.list-p1 {
+    margin-left: 2vw;
+    font-size: 1.5vw;
+}
+.ul {
+    margin-left: 4vw !important;
+    margin-right: 4vw !important;
+}
+.slick-prev, .slick-next {
+        font-size: 3vw !important;
+        line-height: 0;
+       
+        left: 11vw;
+        
+        top: 27vw;
+        display: block;
+        z-index: 10;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: inherit; 
+        margin: 2vw;
+        
+    }
+}
+.voc-card {
+    display: flex !important;
+    .p {
+       
+        font-size: 3vw;
+        margin-top: 0;
+        margin-bottom: 1vw;
+        line-height: 1;
+        margin-right: auto;
+        margin-left: 2vw;
+         display: flex;
+    }
+    .pp {
+        font-size: 1.2vw;
+        margin-right: auto;
+         display: flex;
+font-family: 'DejaVu Sans';
+font-style: italic;
+font-weight: 700;
+text-align: center;
+line-height: 2vw;
+letter-spacing: 0.05em;
+    }
+}
+.dog {
+    margin-right: 10vw;
+
+}
+
+.w {
+   padding-left: 1vw;
+}
+.ppp {
+    display: none;
+}
+.voc .slick-prev, .voc .slick-next , .next-prev {
+    display: flex !important;
+}
+@media (max-width:480px) {
+    .voc .voc-slider {
+     
+         height: auto ;}
+     #voc {
+        margin-top: 30vw;
+        .ppp {
+            padding: 0 1vw;
+            display: flex;
+            font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 2.5vw;
+line-height: 196.91%;
+/* or 20px */
+
+text-align: center;
+letter-spacing: 0.05em;
+
+color: #FFFFFF !important;
+        }
+        .i {
+
+            margin: 2vw 0 ;
+            display: flex;
+            justify-content: space-around;
+           
+            .d-d {
+                margin: 2vw 0 ;
+            }
+            ul {
+               
+                .list-p   {
+                    font-size: 2vw !important;
+                    font-family: 'Montserrat';
+font-style: italic;
+font-weight: 500;
+
+line-height: 196.91%;
+/* or 20px */
+
+letter-spacing: 0.05em;
+
+color: #fff;
+                }
+            }
+        }
+        .list-p1 {
+            font-size: 3vw !important;
+        }
+        .prav , .lev {
+            width: 2vw !important;
+            height: 2vw !important;
+            padding: 1vw !important;
+            margin: 0 1vw !important;
+        }
+        .p {
+            font-size: 4vw !important;
+        }
+        .dog {
+            width: 35vw;
+            height: 20vw;
+        }
+        .d , .pp {
+            display: none;
+        }
+        .slick-prev, .slick-next , .next-prev {
+            display: flex !important;
+        }
+        button {
+            margin-top: 10vw !important;
+            width: 35vw !important;
+            font-size: 2.7vw !important;
+            height: 7vw !important;
+        }  
+         .slick-next {
+            left: 53vw !important;
+          }
+          .slick-prev {
+            left: 45vw !important;
+          }.slick-prev, .slick-next {
+            font-size: 3vw !important;
+            line-height: 0;
+           
+            
+            
+            top: 6vw !important;
+            display: block;
+            z-index: 10;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: inherit; 
+            margin: 2vw;
+            
+        }
+     } 
+     .hin {
+            right: 0vw;
+            top: -15vw !important;
+            width: 33vw;
+        }
+     
+        
+}
+@media (max-width:768px) {
+      #voc .contact-title {
+         margin-top: 5vw !important;
+      }
+      
+}

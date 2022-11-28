@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .Amazon {
+    padding-top: 7vw;
+  }
+  section {
+    width: 80%;
+    margin: auto;
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    /*
+        width: 90%;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;*/
+  }
+  .cards {
+  
+    
+    width: 33%;
+    min-height: 35vw;
+   
+    img {
+      display: flex;
+      margin:0 auto;
+      width: 80%;
+    }
+  }
+  .cards:hover {
+    box-shadow: 0 10px 10px 10px rbga(0, 0, 0, 0.1);
+    cursor: pointer;
+  }
+
+  .details p:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    height: 4.2vw;
+    text-align: center;
+    font-weight: bold;
+  }
+  .details p:nth-child(2) {
+    color: grey;
+    font-size: 1.2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    height: 4.2vw;
+    text-align: center;
+  }
+
+  .details button {
+    padding: 5px 10px;
+    border: none;
+    font-weight: bold;
+    background-color: skyblue;
+    outline: none;
+    cursor: pointer;
+  }
+  .sec {
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+   
+    section {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 100%;
+      margin-bottom: 3vw;
+     
+    }
+  }
+  .details {
+    button {
+      display: none;
+      
+    }
+    p{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+  .price {
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 2vw;
+line-height: 3vw;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFC632;
+
+  }
+  } 
+  .cards:hover {
+    border: 1px solid #FFC632;
+    
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+transition: .3s ease;
+    button {
+      display: flex;
+      width: 15vw;
+      height: 3vw;
+      margin: 1vw auto;
+      background: #85241F;
+      border-radius: 17px;
+      font-family: 'BPG Glaho';
+font-style: normal;
+font-weight: 800;
+font-size: 1.3vw;
+display: flex;
+    justify-content: center;
+    align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+    }
+    button:hover {
+      background: #ffffff;
+      color: #85241F;
+      transition: .5s ease;
+    }
+  }
+  .filtr-mob {
+    display: none;
+}
+.filtr-des {
+  display: flex;
+}
+@media (max-width:1024px) {
+  .filtr-mob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtr-des {
+  display: none;
+}
+.filterWrapper {
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      color: white;
+
+    }
+}
+.sec {
+  display: block;
+  section {
+    justify-content: space-around;
+  }
+}
+.Amazon .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  display: flex !important;
+  justify-content: end !important;
+  line-height: 3vw !important;
+  height: 10vw;
+ 
+}
+}
+
+.css-n6v7qi-MuiPaper-root-MuiDrawer-paper {
+  background-color: #818181  !important; }
+  @media (max-width:1024px) {
+   .css-1u2w381-MuiModal-root-MuiDrawer-root {
+      display: flex }
+  }
+@media (max-width:768px) {
+  .Amazon {
+    padding-top: 10vw;
+  }
+}
+
+  @media (max-width:480px) {
+    .sec {
+      min-height: 170vw;
+    }
+    .details p:nth-child(2) {
+      height: 10vw;
+      font-size: 2.5vw;
+     
+    }
+    .details p:nth-child(1) {
+      height: 8vw;
+      font-size: 3vw;
+     
+    }
+    .price {
+      display: flex;
+      align-items: center;
+      height: 10vw;
+      font-size: 3.5vw !important;
+    }
+    .cards {
+      width: 100%;
+      min-height: 97vw;
+      button {
+        width: 46vw !important;
+        height: 9vw !important;
+        font-size: 3.3vw !important;
+      }
+    }
+   
+  
+  .filter {
+    filter: invert(100%); 
+    -webkit-filter: none;
+    width: 3vw;
+    margin: 0 1vw;
+  }
+ 
+  }
+  
+  

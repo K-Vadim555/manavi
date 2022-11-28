@@ -1,0 +1,118 @@
+$vw:1/1440px*100vw;
+.About {
+    position: relative;
+}
+.about-wrapper {
+   
+    
+    left: -0.5vw;
+    top:0 ;
+    
+    
+   padding:2vw 8.2vw ;
+    
+  
+}
+
+.a1 {
+    width: 7vw;
+    display: flex;
+    justify-content: start;
+    margin-left: 0vw;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+.img {
+    
+      background-image: url(./about-img/aboutus-bg.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+.text {
+    color:rgb(255, 255, 255) !important;
+    font-size: 3vw !important;
+    
+    
+font-family: 'Montserrat' !important;
+font-style: normal;
+font-weight: 700;
+
+line-height: 51px;
+letter-spacing: 0.07em;
+}
+.textt {
+    color:rgb(255, 255, 255) !important;
+    font-size: 1vw !important;
+    margin-bottom: 3vw !important;
+    
+    font-family: 'DejaVu Sans';
+    font-style: italic;
+    font-weight: 700;
+   
+    
+    letter-spacing: 0.05em !important;
+    margin-top: 3vw !important;
+    color: #FFFFFF;
+}
+.sliderrr {
+    width: 30vw;
+    height: 30vw;
+    margin-top: 3vw !important;
+   img {
+        margin: 0 auto;
+        height: 30vw !important;
+        border-radius: 15px;
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+  .text , .contact-title {
+    font-size: 5vw !important;
+  }
+  .a1 , .a2{
+    width: 10vw !important;
+  }
+  .r { font-size: 1.5vw !important;}
+   .grid-cont {
+        display: block !important;
+        div:first-child {
+        
+            height: 50vw !important;
+            margin: 0 auto;
+            .sliderrr {
+                width: 50vw !important;
+                height: 50vw !important;
+                img {
+                    height: 50vw !important;
+                    width: 50vw !important;
+                }
+            }
+          
+        }
+        div:last-child { margin: 0 auto;
+          
+         
+              p {  padding: 1vw 5vw;
+                font-size: 3vw !important;
+                text-align: center;
+                font-family: 'DejaVu Sans';
+font-style: italic;
+font-weight: 700;
+
+line-height: 156.91%;
+/* or 20px */
+
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+
+            }
+        }
+        
+    }
+}
+.css-1osj8n2-MuiGrid-root {
+    max-width: 100% !important;
+}

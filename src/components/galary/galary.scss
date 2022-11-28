@@ -1,0 +1,114 @@
+.galary {
+    position: relative;
+   
+}
+.ros1 {
+    position: absolute;
+    left: 70vw;
+    top: -3vw;
+    width: 15vw;
+}
+.ros2 {
+    position: absolute;
+    left: 0vw;
+    top: 40vw;
+    width: 15vw;
+}
+.galary-slider {
+    width: 86%;
+    margin: 0 auto;
+    margin-top: 5vw;
+    .img1 {
+       margin: 0 auto;
+     
+        height: 30vw !important;
+        img {
+            height: 30vw !important;
+              width: 90% !important;
+              margin: 0 auto !important;
+        }
+    }
+    .slick-prev, .slick-next {
+        font-size: 3vw !important;
+        line-height: 0;
+       
+      
+         left: 34vw;
+        top: 35vw;
+        display: block;
+        width: 0vw;
+        height: 1vw;
+        padding: 0;
+        transform: translate(0, -50%);
+        cursor: pointer;
+        color: transparent;
+        border: none;
+        outline: none;
+        background: inherit; 
+        z-index: 10;
+    }
+}
+@media (max-width: 768px) {
+   
+    .contact-title {
+        margin-top: 3vw !important;
+      }
+    .css-bhp9pd-MuiPaper-root-MuiCard-root {
+        width: 90% !important;
+    }
+  
+    .galary-slider {
+        .slick-prev, .slick-next , .next-prev {
+            display: flex !important;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .ros1 {
+        width: 18vw;
+        transform: rotate(340deg);
+        top: -8vw;
+    }
+    .ros2 {
+        top: 110vw;
+    }
+    .galary-slider { margin-bottom: 20vw;
+        .prav {
+            margin: 0 17vw !important;
+        }
+        .lev , .prav {
+            width: 13vw !important;
+           
+        }
+        .slick-prev, .slick-next , .next-prev {
+            display: flex !important;
+            top: 105vw !important;
+            left: 29vw;
+        
+            height: 3vw !important;
+        }
+    }
+    .galary-slider {
+        .img1 {
+            margin: 0 auto;
+          
+             height: 90vw !important;
+             img {
+                 height: 100% !important;
+                   width: 90% !important;
+                   margin: 0 auto !important;
+             }
+         }
+    }
+   .contact-title {
+        font-size: 5vw !important;
+      }
+      .a2 , .Line{
+        width: 15vw !important;
+      }
+      .r { 
+        font-size: 1.5vw !important;
+        margin-bottom: 5vw;
+    }
+}

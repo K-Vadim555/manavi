@@ -1,0 +1,104 @@
+.slider {
+    padding-top: 1vw ;
+    margin: 0 auto;
+    margin-top: 1vw;
+    width: 86%;
+    
+    .Card img {
+        margin: 0 auto !important;
+    }
+}
+.card-img {
+    
+    width: 75%;
+    margin: 0 auto;
+}
+.slick-dots {
+    display: none;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100% !important;
+}
+ .slick-slide , .css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background-color: transparent !important;
+    min-width: 100px !important;
+}
+
+.card {
+    min-width: 100px !important;
+    padding: 2vw;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    padding: 1vw;
+   width: 25vw !important;
+   margin-top: 2vw;
+}
+.m {
+    text-decoration: none;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root:hover ,
+.css-1w1rijm-MuiButtonBase-root-MuiButton-root{
+    border: 1px solid #FFC632;
+    
+    transition: 0.5s ease;
+border-radius: 30px;
+}
+h5.MuiTypography-root.MuiTypography-h5.MuiTypography-gutterBottom.css-10gsmdd-MuiTypography-root , .css-hspkta-MuiTypography-root , .css-t2pz8n-MuiTypography-root  {
+    text-align: center;
+}
+.slider .slick-prev, .slider .slick-next {
+   
+    font-size: 3vw !important;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 1vw;
+    height: 1vw;
+    z-index: 10;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: inherit; 
+}
+
+.slick-prev:before {
+    content: '←';
+}
+.slick-next:before, .slick-prev:before {
+    font-size: 0vw;
+    line-height: 1;
+    
+    color: transparent !important;
+}
+.slick-dots li button:before, .slick-next:before, .slick-prev:before {
+    font-family: slick;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.Linee {
+    width: 17vw;
+    height: .3vw;
+    display: flex;
+    margin-left: 1vw;
+     margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+    justify-content: start;
+    
+}
+.h1 {
+    color: white !important;
+}
+.slider .contact-title { 
+    margin-left: 1vw !important;
+    }
+@media (max-width: 768px) {
+    .css-bhp9pd-MuiPaper-root-MuiCard-root {
+        width: 90% !important;
+    }
+    .slick-prev, .slick-next , .next-prev {
+        display: none !important;
+    }
+}
