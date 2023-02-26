@@ -93,7 +93,7 @@ export const Masa = () => {
    }
   
    return (
-    <div id='masa' className='App'> 
+    <div id='masa' className='App masa'> 
         <h2  style={{
         marginLeft: '8vw',
         display: 'none',
